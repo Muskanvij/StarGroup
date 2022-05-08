@@ -69,9 +69,9 @@ img {
 }
 .showcase .grid {
     overflow: visible;
-    grid-template-columns: 55% 45% ;
+    grid-template-columns: 55% auto;
     gap: 30px;
-}
+} 
 .showcase-form {
     position: relative;
     top: 60px;
@@ -81,6 +81,26 @@ img {
     z-index: 100;
 
 }
+.showcase-form .form-control {
+    margin: 30px 0;
+}
+
+.showcase-form input[type='text'],
+.showcase-form input[type='email']
+
+{
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width:100%;
+  padding:3px;
+  font-size: 16px;
+}
+ 
+.show-form input:focus {
+    outline: none;
+
+}
+
 
 /* Utilities class that we will use all around the website*/
 
@@ -100,6 +120,16 @@ img {
     margin: 10px;
     
 }
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor:pointer;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
 .flex{
     display: flex;
     justify-content:center;
