@@ -56,6 +56,22 @@
   color: #333;
 }
 
+/* Text sizes*/
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+.lg {
+    font-size: 3rem;
+}
+.xl {
+    font-size: 4rem;
+}
+
 .text-center {
     text-align: center;
 }
