@@ -49,6 +49,7 @@ img {
   color: #fff;
   padding: 10px;
   margin: 0 5px;
+  
 }
 .navbar a:hover {
   border-bottom: 2px #fff solid;
@@ -172,7 +173,8 @@ img {
 
 /* Features */
 
-.features-head img
+.features-head img,
+.docs-head img 
  {
   width: 200px;
   justify-self: flex-end;
