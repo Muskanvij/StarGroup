@@ -1,1 +1,1 @@
-# Initial phase of StarGroup 
+#
